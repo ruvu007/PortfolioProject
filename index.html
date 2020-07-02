@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Ruben Vuurman</title>
-    <meta name="description" content="Student Web Development">
+    <title>Ruben Vuurman | Web- App Development</title>
+    <meta name="description" content="Portfolio website Ruben Vuurman | Web- app Developer">
     <meta name="author" content="Ruben Vuurman">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Rlogo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -20,61 +21,147 @@
                 <li><a href="#paginaB"> Mijn Skills</li>
                 <li><a href="#paginaC"> Projecten</li>
                 <li><a href="#paginaD"> Social media</li>
-                <li><a href="#paginaE"> Contact opnemen</li>
             </ul>
         </nav>
 
-    <img src="images/Rlogo.png" class="logo" alt="Logo R">
+        <img src="images/Rlogo.png" class="logo" alt="Logo R">
 
-    <script src="js/three.r95.min.js"></script>
-    <script src="js/vanta.dots.min.js"></script>
-    <script>
-    VANTA.DOTS({
-    el: "#pagina",
-    mouseControls: true,
-    touchControls: true,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    size: 1.30,
-    spacing: 20.00,
-    color: 0xde00ff,
-    color2: 0x3eff00
-   })
-</script>
+        <div class="button" id="button1">
+            <div id="translate"></div>
+            <a href="#paginaE">Neem contact </a>
+        </div>
+
+        <script src="js/three.r95.min.js"></script>
+        <script src="js/vanta.dots.min.js"></script>
+        <script>
+            VANTA.DOTS({
+                el: "#pagina",
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                size: 1.30,
+                spacing: 20.00,
+                color: 0xde00ff,
+                color2: 0x3eff00
+            })
+        </script>
 
     </section>
 
     <section id="paginaA">
-        <a class="tekst"> Mijn naam is Ruben, 17 jaar oud en ik volg de studie Media Developer op het Media College.<br> 
-            Na deze opleiding wil ik aan het werk als developer of ik wil een Cyber Security opleiding doen.
-        </a>
+        <div class="overmijtxt">
+            <h1 class="ml11">
+                <span class="text-wrapper">
+                    <span class="line line1"></span>
+                    <span class="letters">Ruben Vuurman</span>
+                </span>
+            </h1>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="js/animatedtext.js"></script>
+
+            <div class="paragraaf">
+                <a>
+                    Welkom op mijn portfolio site, mijn naam is Ruben Vuurman en ik ben 18 jaar oud. Ik studeer <br>Web-
+                    App development op
+                    het Media College. Via deze website presenteer ik een paar <br>projecten van mij en kunt u contact
+                    met mij opnemen. Onder 'Mijn skills' kunt u lezen <br>wat mijn programmeer vaardigheden zijn. 
+                    <br><br>Later wil ik het liefst aan het werk als zzp'er en doorstuderen naar het hbo.
+                </a>
+            </div>
+        </div>
     </section>
 
     <section id="paginaB">
-        <h1>Skills</h1>
+
+        <div class="paragraaf2">
+            <a>
+                Op het moment ben ik een klein jaartje bezig met programmeren. Ik studeer aan het Media College <br>en
+                heb het erg naar mijn zin.<br><br>
+                Ik heb HTML, Css, JavaScript en Php al goed onder de knie. Daarnaast <br>heb ik ervaring met andere
+                talen/tools als SQL, Sass, MVC, Bootstrap, Api's en JQuery.
+                <br><br>Naast programmeren ben ik ook graag bezig met designs voor websites, logo's etc. Ik heb een
+                aantal jaar <br>ervaring met Photoshop en ik ben nu een tijdje bezig met
+                XD.
+            </a>
+        </div>
+
     </section>
 
     <section id="paginaC">
         <h1>Projecten</h1>
+
+        <div class="grid-container">
+            <div class="grid-item"><a
+                    href="http://28624.hosts2.ma-cloud.nl/bewijzenmap/periode1.1/proj/Website/homepage.html">
+                    <img src="images/portfolio1.PNG" alt="Mijn eerste portfolio website.">
+                </a></div>
+            <div class="grid-item"><a href="https://jromdesigns.com/home">
+                    <img src="images/corendog.PNG" alt="Mij en een klasgenoots project voor het virus Covid19.">
+                </a></div>
+            <div class="grid-item"><a
+                    href="http://28624.hosts2.ma-cloud.nl/bewijzenmap/periode1.2/PROJ/project%20op/index.html">
+                    <img src="images/md.PNG"
+                        alt="Een project van mij waar ik voor onze opleiding een nieuwe front page moest maken.">
+                </a></div>
+            <div class="grid-item"><a
+                    href="http://28624.hosts2.ma-cloud.nl/bewijzenmap/periode1.4/KID/Website/index.html">
+                    <img src="images/hoorn1600.PNG"
+                        alt="Een project van mij waar ik een game moest maken over mijn stad.">
+                </a></div>
+        </div>
+
     </section>
 
     <section id="paginaD">
         <h1>Social media</h1>
 
         <div class="social-media">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-snapchat-ghost"></a>
-            <a href="#" class="fa fa-reddit"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-google"></a>
+            <a href="https://www.instagram.com/ruben_.v/" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com/add/ruben_v0" class="fa fa-snapchat-ghost"></a>
+            <a href="https://www.reddit.com/user/r_v00" class="fa fa-reddit"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            <a href="https://www.google.com/" class="fa fa-google"></a>
         </div>
 
     </section>
 
     <section id="paginaE">
-        <h1>Contact opnemen</h1>
+
+        <div class="contact">
+            <div class="container">
+                <form id="contact" action="" method="post">
+                    <h3>Contacteer mij</h3>
+                    <h4>voor eventuele vragen of opmerkingen.</h4>
+                    <fieldset>
+                        <input placeholder="Uw naam" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Uw email adres" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Uw telefoonnummer (optioneel)" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Typ uw bericht hier in...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit"
+                            data-submit="...Versturen">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="boxed3">
+            <br><a>Mijn gegevens <br> <br> <br>
+                Ralvuurman@gmail.com <br> <br>
+                Ruben Vuurman</a>
+        </div>
+
     </section>
 
 </body>
